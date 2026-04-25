@@ -1,4 +1,4 @@
-export const whatsappNumber = "56936743341";
+export const whatsappNumber = "56932898601";
 
 export const navItems = [
   "Inicio",
