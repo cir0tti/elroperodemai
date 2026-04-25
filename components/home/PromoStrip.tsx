@@ -21,7 +21,7 @@ export default function PromoStrip() {
 
       <div className="relative w-full max-w-full overflow-hidden border-b border-white/10 py-3">
         <div className="w-full max-w-full overflow-hidden md:hidden">
-          <div className="promo-marquee flex w-max max-w-none gap-6 px-5">
+          <div className="promo-marquee flex w-max min-w-max gap-6 px-5">
             {[...items, ...items, ...items, ...items].map((item, index) => {
               const Icon = item.icon;
 

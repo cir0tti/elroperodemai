@@ -29,7 +29,7 @@ function checkout(data: CheckoutData) {
 }
 
   return (
-    <main className="min-h-screen bg-[#f9e6ec] px-4 py-6 pb-24 text-[#151313] md:px-10 md:pb-6">
+    <main className="min-h-screen bg-[#f9e6ec] pb-24 text-[#151313] md:pb-0">
       <CartDrawer
         open={cartOpen}
         cart={cart}
