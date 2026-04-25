@@ -48,7 +48,7 @@ export default function Footer() {
             </div>
 
             <a
-              href="https://wa.me/56936743341"
+              href="https://wa.me/56932898601"
               target="_blank"
               className="inline-flex items-center justify-center gap-3 rounded-full bg-white px-6 py-4 text-xs font-black uppercase tracking-[0.18em] text-[#100d0c] transition hover:-translate-y-1 hover:bg-[#f4d7d2]"
             >
