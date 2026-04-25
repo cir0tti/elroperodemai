@@ -16,9 +16,55 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ElroperodeMai | Moda con estilo",
+  title: "El Ropero de Mai | Moda con estilo y prendas seleccionadas",
   description:
-    "Tienda online de ropa para mujeres, hombres y niños. Compra fácil por WhatsApp.",
+    "Descubre prendas para mujeres, hombres y niños en El Ropero de Mai. Moda con estilo, calidad y compra rápida por WhatsApp con envíos disponibles.",
+  keywords: [
+    "ropa mujer",
+    "ropa hombre",
+    "ropa niños",
+    "tienda de ropa online",
+    "moda urbana",
+    "parkas",
+    "cortavientos",
+    "polerones",
+    "pantalones",
+    "outfits modernos",
+    "ropa de temporada",
+    "el ropero de mai",
+  ],
+  authors: [{ name: "El Ropero de Mai" }],
+  creator: "El Ropero de Mai",
+  publisher: "El Ropero de Mai",
+  metadataBase: new URL("https://elroperodemai.vercel.app"),
+  openGraph: {
+    title: "El Ropero de Mai | Moda con estilo",
+    description:
+      "Prendas seleccionadas para toda la familia. Compra rápida por WhatsApp.",
+    url: "https://elroperodemai.vercel.app",
+    siteName: "El Ropero de Mai",
+    locale: "es_CL",
+    type: "website",
+    images: [
+      {
+        url: "/logo-mai.png",
+        width: 1200,
+        height: 630,
+        alt: "El Ropero de Mai",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "El Ropero de Mai | Moda con estilo",
+    description:
+      "Moda femenina, masculina e infantil. Compra simple por WhatsApp.",
+    images: ["/logo-mai.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
