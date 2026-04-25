@@ -6,11 +6,11 @@
   }
 
   to {
-    transform: translateX(-33.333%);
+    transform: translateX(-50%);
   }
 }
 
 .promo-marquee {
-  animation: marquee 12s linear infinite;
+  animation: marquee 22s linear infinite;
   will-change: transform;
 }
